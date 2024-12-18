@@ -43,7 +43,7 @@ try {
 
     if ($routeDetails === null) {
         http_response_code(404);
-        echo json_encode(['error' => 'Ruta no encontrada']);
+        echo json_encode(['error' => 'Route not found']);
         exit;
     }
 
@@ -52,17 +52,17 @@ try {
     $requestParams = $routeDetails['params'];
 
     if (!class_exists($controllerName)) {
-        throw new Exception("Controlador no encontrado");
+        throw new Exception("Controller not found");
     }
 
     $controller = new $controllerName();
 
     if (!method_exists($controller, $action)) {
-        throw new Exception("Método no encontrado");
+        throw new Exception("Method not found");
     }
 
     call_user_func_array([$controller, $action], $requestParams);
 } catch (Exception $e) {
     http_response_code(500);
-    echo json_encode(['error' => 'Error interno del servidor', 'message' => $e->getMessage()]);
+    echo json_encode(['error' => 'Internal server error', 'message' => $e->getMessage()]);
 }
