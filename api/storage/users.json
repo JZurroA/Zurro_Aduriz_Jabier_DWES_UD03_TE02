@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "nombre": "Ana",
+      "apellido": "García",
+      "email": "ana.garcia@birt.eus"
+    },
+    {
+      "id": 2,
+      "nombre": "Luis",
+      "apellido": "Pérez",
+      "email": "luis.perez@birt.eus"
+    },
+    {
+      "id": 3,
+      "nombre": "María",
+      "apellido": "Rodríguez",
+      "email": "maria.rodriguez@ejemplo.es"
+    },
+    {
+      "id": 4,
+      "nombre": "Carlos",
+      "apellido": "Sánchez",
+      "email": "carlos.sanchez@correo.com"
+    },
+    {
+      "id": 5,
+      "nombre": "Laura",
+      "apellido": "Martínez",
+      "email": "laura.martinez@example.com"
+    },
+    {
+      "id": 6,
+      "nombre": "Javier",
+      "apellido": "López",
+      "email": "javier.lopez@correo.es"
+    },
+    {
+      "id": 7,
+      "nombre": "Elena",
+      "apellido": "Moreno",
+      "email": "elena.moreno@example.com"
+    }
+  ]
+  

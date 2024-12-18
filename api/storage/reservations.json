@@ -1,0 +1,82 @@
+[
+    {
+        "idReservation": 1,
+        "idBook": 1,
+        "idUser": 3,
+        "startDate": "2024-12-01",
+        "endDate": "2024-12-15",
+        "available": true
+    },
+    {
+        "idReservation": 2,
+        "idBook": 2,
+        "idUser": 1,
+        "startDate": "2024-12-05",
+        "endDate": "2024-12-10",
+        "available": true
+    },
+    {
+        "idReservation": 3,
+        "idBook": 3,
+        "idUser": 4,
+        "startDate": "2024-12-08",
+        "endDate": "2024-12-20",
+        "available": false
+    },
+    {
+        "idReservation": 4,
+        "idBook": 4,
+        "idUser": 1,
+        "startDate": "2024-11-12",
+        "endDate": "2024-11-19",
+        "available": true
+    },
+    {
+        "idReservation": 5,
+        "idBook": 5,
+        "idUser": 7,
+        "startDate": "2024-12-03",
+        "endDate": "2024-12-18",
+        "available": false
+    },
+    {
+        "idReservation": 6,
+        "idBook": 6,
+        "idUser": 2,
+        "startDate": "2024-12-05",
+        "endDate": "2024-12-10",
+        "available": true
+    },
+    {
+        "idReservation": 7,
+        "idBook": 6,
+        "idUser": 6,
+        "startDate": "2024-12-12",
+        "endDate": "2024-12-20",
+        "available": false
+    },
+    {
+        "idReservation": 8,
+        "idBook": 2,
+        "idUser": 4,
+        "startDate": "2024-12-19",
+        "endDate": "2024-12-26",
+        "available": false
+    },
+    {
+        "idReservation": 9,
+        "idBook": 6,
+        "idUser": 4,
+        "startDate": "2024-12-21",
+        "endDate": "2024-12-25",
+        "available": false
+    },
+    {
+        "idReservation": 10,
+        "idBook": 1,
+        "idUser": 1,
+        "startDate": "2024-12-18",
+        "endDate": "2024-12-30",
+        "available": false
+    }
+]

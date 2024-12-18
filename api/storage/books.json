@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "titulo": "Cien años de soledad",
+      "genero": "Novela",
+      "autor": "Gabriel García Márquez"
+    },
+    {
+      "id": 2,
+      "titulo": "1984",
+      "genero": "Distopía",
+      "autor": "George Orwell"
+    },
+    {
+      "id": 3,
+      "titulo": "Orgullo y prejuicio",
+      "genero": "Romance",
+      "autor": "Jane Austen"
+    },
+    {
+      "id": 4,
+      "titulo": "El señor de los anillos",
+      "genero": "Fantasía",
+      "autor": "J.R.R. Tolkien"
+    },
+    {
+      "id": 5,
+      "titulo": "Matar a un ruiseñor",
+      "genero": "Drama",
+      "autor": "Harper Lee"
+    },
+    {
+      "id": 6,
+      "titulo": "Don Quijote de la Mancha",
+      "genero": "Aventura",
+      "autor": "Miguel de Cervantes"
+    },
+    {
+      "id": 7,
+      "titulo": "Crimen y castigo",
+      "genero": "Filosófica",
+      "autor": "Fiódor Dostoyevski"
+    }
+  ]  
