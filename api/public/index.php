@@ -52,12 +52,14 @@ try {
     $requestParams = $routeDetails['params'];
 
     if (!class_exists($controllerName)) {
+        http_response_code(404);
         throw new Exception("Controller not found");
     }
 
     $controller = new $controllerName();
 
     if (!method_exists($controller, $action)) {
+        http_response_code(405);
         throw new Exception("Method not found");
     }
 
