@@ -37,7 +37,7 @@
         "idUser": 7,
         "startDate": "2024-12-03",
         "endDate": "2024-12-18",
-        "available": false
+        "available": true
     },
     {
         "idReservation": 6,
@@ -69,14 +69,6 @@
         "idUser": 4,
         "startDate": "2024-12-21",
         "endDate": "2024-12-25",
-        "available": false
-    },
-    {
-        "idReservation": 10,
-        "idBook": 1,
-        "idUser": 1,
-        "startDate": "2024-12-18",
-        "endDate": "2024-12-30",
         "available": false
     }
 ]
